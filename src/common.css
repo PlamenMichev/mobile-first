@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 @font-face {
     font-family: Cocogoose;
     src: url(fonts/Cocogoose\ Pro\ Thin\ Trial.ttf);
@@ -11,19 +12,27 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding-left: 38px;
+    padding-left: 30px;
     height: 106px;
     align-items: center;
     background-color: #EF5E2A;
 }
 
+.nav-links-mobile {
+    display: none;
+}
+
+#hamburger {
+    display: none;
+  }
+  
 
 #nav-links > a {
     text-decoration: none;
     color: #000022;
     font-size: 24px;
     font-family: Cocogoose;
-    padding: 38px;
+    padding: 38px 30px;
 }
 
 #nav-links > a:hover {
@@ -33,4 +42,87 @@ nav {
 
 #nav-links {
     display: flex;
+}
+
+#nav-links-mobile {
+    display: none;
+}
+
+@media (max-width: 1140px) {
+    html, body
+    {
+        height: 100%;
+    }
+
+    #logo {
+        width: 130px;
+    }
+
+    nav {
+        height: 70px;
+    }
+    
+    #nav-links {
+        display: none;
+    }
+
+    .nav-links-mobile {
+        opacity: 1;
+        display: flex;
+        height: calc(100% - 70px);
+        flex-direction: column;
+        background-color: #93EBFF;
+        overflow: auto;
+        transition: opacity 0.3s;
+    }
+
+    .nav-links-mobile-hidden {
+        opacity: 0;
+    }
+
+    .nav-links-mobile > a {
+        text-decoration: none;
+        color: #000022;
+        font-size: 24px;
+        font-family: Cocogoose;
+        padding: 38px 30px;
+        border-bottom: 1px solid #000022;
+        width: 60%;
+        margin-left: 20px;
+    }
+
+    .nav-links-mobile > a:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    nav {
+        padding-left: 16px;
+    }
+
+    /* Hamburger Menu */
+    #hamburger {
+        display: block;
+        cursor: pointer;
+        margin-right: 16px;
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
 }
