@@ -166,6 +166,7 @@ footer {
         transition: opacity 0.3s;
         position: absolute;
         width: 100%;
+        z-index: 3;
     }
 
     .nav-links-mobile-hidden {

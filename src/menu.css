@@ -1,0 +1,147 @@
+h1 {
+    text-align: center;
+    font-family: Zamenhof;
+    color: #EF5E2A;
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: center;
+    font-size: 44px;
+    color: #EF5E2A;
+    font-family: Zamenhof;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 44px;
+    color: #EF5E2A;
+    font-family: Cocogoose;
+    font-weight: 300;
+}
+
+.coctail-image {
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.offer > .items > .item > span {
+    font-family: Zamenhof;
+    font-size: 24px;
+    position: relative;
+    background-color: white;
+    padding: 5px;
+}
+
+.offer > .items {
+    display: flex;
+    flex-direction: column;
+}
+
+.dot {
+    border-top: dotted 7px black;
+    position: absolute;
+    width: 90%;
+    top: 17px;
+    z-index: -1;
+}
+
+.item-name {
+    float: left;
+}
+.item-price {
+    float: right;
+}
+
+.menu-offers {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 160px;
+}
+
+.item {
+    position: relative;
+}
+
+.book-form {
+    background-color: #EF5E2A;
+    width: 652px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.input-section {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 424px;
+    font-size: 50px;
+}
+
+.input-icon {
+    margin-right: 50px;
+}
+
+.calendar-icon {
+    width: 76px;
+}
+
+.input-section:last-of-type {
+    margin-bottom: 0;
+}
+
+.submit-button {
+    padding: 14px 107px;
+    background-color: #93EBFF;
+    font-size: 45px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 50px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 43px;
+    margin-bottom: 200px;
+}
+
+@media (max-width: 840px) {
+    .menu-offers {
+        flex-direction: column;
+    }
+
+    .offer {
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    .offer > .items > .item > span {
+        font-size: 18px;
+    }
+
+    .book-form {
+        width: 240px;
+    }
+
+    .input-icon {
+        margin-right: 25px;
+        width: 43px;
+    }
+
+    input {
+        width: 190px;
+        font-size: 40px;
+    }
+}

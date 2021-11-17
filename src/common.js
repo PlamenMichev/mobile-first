@@ -4,8 +4,10 @@ function toggleHamburger(element) {
 
     if (isHidden) {
         mobileNavElements.classList.remove('nav-links-mobile-hidden');
+        document.body.style.overflowY = 'hidden'
     } else {
         mobileNavElements.classList.add('nav-links-mobile-hidden');
+        document.body.style.overflowY = 'auto'
     }
 
     element.classList.toggle("change");
