@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: Zamenhof;
+    color: #EF5E2A;
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+img {
+    float: left;
+    margin-left: 50px;
+}
+h2 {
+    position: left;
+    font-family: Cocogoose Pro;
+    color: #EF5E2A;
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-left: 178px;
+}
+p {
+    font-family: Cocogoose Pro;
+    color: black;
+    font-size: 18px;
+    margin-left: 178px;
+}
+#bla {
+font-family: 'Courier New', Courier, monospace;
+}
+article {
+    border-width: 2px;
+    border-bottom-color: #EF5E2A;
+    border-bottom-style: solid;
+    width: auto;
+    /*display: flex;*/
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
