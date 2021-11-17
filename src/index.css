@@ -50,6 +50,9 @@
 
     .hero-banner-mobile {
         display: block;
+        border-bottom: 1px solid #EF5E2A;
+    width: 96%;
+    margin: 0 auto;
     }
 
     .banner-header-mobile {
@@ -82,6 +85,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
+    text-shadow: 2px 2px 2px black;
+    width: 829px;
 }
 
 .blurred-image-section {
@@ -104,6 +109,7 @@
     color: #3DEDA4;
     font-weight: 500;
     text-align: center;
+    text-shadow: 2px 2px 2px black;
 }
 
 .card-text {
@@ -140,4 +146,32 @@ main {
     font-family: Zamenhof;
     margin: 23px 0px;
     color: #EF5E2A;
+}
+
+@media (max-width: 890px) {
+    .blurred-image-section {
+        width: 307px;
+        height: 173px;
+    }
+
+    .home-page-card-header {
+        font-size: 25px;
+    }
+    
+    .card-text {
+        font-size: 12px;
+    }
+
+    .text-over-image {
+        width: 307px;
+    }
+    
+    .pin-image {
+        margin-bottom: 20px;
+        width: 90px;
+    }
+    
+    .map {
+        width: 330px;
+    }
 }
