@@ -9,6 +9,53 @@
     <title>Kromosom</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <section id="logo-section">
+                <a href="index.html">
+                    <img id="logo" alt="Kromosom Logo" src="images/logo.png">
+                </a>
+            </section>
+            <section id="nav-links">
+                <a href="events.html">
+                    Events
+                </a>
+                <a href="menu.html">
+                    Menu
+                </a>
+                <a href="about.html">
+                    About Us
+                </a>
+                <a href="extras.html">
+                    Extras
+                </a>
+            </section>
+
+            <!-- Mobile hamburger -->
+            <div id="hamburger" onclick="toggleHamburger(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+        </nav>
+        <!-- Mobile Nav -->
+
+        <nav class="nav-links-mobile nav-links-mobile-hidden">
+            <a href="events.html">
+                Events
+            </a>
+            <a href="menu.html">
+                Menu
+            </a>
+            <a href="about.html">
+                About Us
+            </a>
+            <a href="extras.html">
+                Extras
+            </a>
+        </nav>
+    </header>
     <main>
         <h1>Our specialties</h1>
         <h2>November’s drink:</h2>
@@ -99,5 +146,47 @@
             <button class="submit-button">Find</button>
         </div>
     </main>
+    <footer>
+        <p class="copyright-text">Copyright <span class="number">2021</span></p>
+        <p class="copyright-text">Kromosom</p>
+        <section class="footer-content">
+            <section class="address-email">
+                <p class="address">Nørre Allé 66, Aarhus</p>
+                <a class="email" href="mailto: kromosom66gmail.com">kromosom<span class="number">66@</span>gmail.com</a>
+            </section>
+
+            <section class="opening-hours">
+                <article>
+                    <span class="day">Tue - Wed</span>
+                    <span class="hour">14-22</span>
+                </article>
+
+                <article>
+                    <span class="day">Thursday</span>
+                    <span class="hour">14-00</span>
+                </article>
+
+                <article>
+                    <span class="day">Fri - Sat</span>
+                    <span class="hour last-hour">14-02</span>
+                </article>
+            </section>
+
+            <section class="social-icons">
+                <a href="https://www.facebook.com/Kromosom66" target="_blank"><img alt="facebook icon"
+                        src="images/Facebook-icon.png" /></a>
+                <a href="https://www.instagram.com/kromosom66/" target="_blank"><img alt="instagram icon"
+                        src="images/instagram-icon.png" /></a>
+            </section>
+
+            <section class="privacy">
+                <a href="#">Terms of service</a>
+                <a href="#">Cookies</a>
+                <a href="#">Privacy Policy</a>
+            </section>
+        </section>
+    </footer>
 </body>
+<script src="./common.js"></script>
+
 </html> 
