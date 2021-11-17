@@ -67,6 +67,7 @@ footer {
     height: 182px;
     bottom: 0;
     width: 100%;
+    padding-top: 20px;
 }
 
 .copyright-text {
@@ -165,6 +166,7 @@ footer {
         transition: opacity 0.3s;
         position: absolute;
         width: 100%;
+        z-index: 3;
     }
 
     .nav-links-mobile-hidden {
