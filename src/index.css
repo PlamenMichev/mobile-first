@@ -75,3 +75,69 @@
         padding: 70px 20px;
     }
 }
+
+.text-over-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.blurred-image-section {
+    overflow: hidden;
+    height: 468px;
+    width: 829px;
+    margin: 0 auto;
+}
+
+.blurred-image-section .blurred-image{
+    width: 105%;
+    height: 105%;
+    margin: -5px;
+    filter: blur(5px);
+  }
+
+.home-page-card-header {
+    font-size: 64px;
+    font-family: Zamenhof;
+    color: #3DEDA4;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 26px;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    font-family: Cocogoose;
+}
+
+.blurred-container {
+    margin: 0 auto;
+    margin-top: 107px;
+    position: relative;
+}
+
+main {
+    overflow: hidden;
+}
+
+.map-section {
+    margin-top: 107px;
+    text-align: center;
+}
+
+.pin-image {
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.map-address {
+    font-size: 36px;
+    font-family: Zamenhof;
+    margin: 23px 0px;
+    color: #EF5E2A;
+}
