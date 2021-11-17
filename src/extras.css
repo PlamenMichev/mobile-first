@@ -1,0 +1,121 @@
+@media (min-width: 620px){
+    h1 {
+        font-family: Zamenhof;
+        color: #EF5E2A;
+        font-size: 48px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    h2 {
+        position: left;
+        font-family: Cocogoose Pro;
+        color: #EF5E2A;
+        font-size: 36px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    p {
+        font-family: Cocogoose Pro;
+        color: black;
+        font-size: 18px;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 75px;
+        margin-left: 50px;
+    }
+    ul {
+        list-style-image: url(images/Extras\ blue.png);
+        font-family: Cocogoose Pro;
+        color: black;
+        font-size: 18px;
+        margin-left: 50px;
+    }
+    #Volunteer h2 {
+    margin-left: 50px;
+    }
+    #Volunteer p {
+    margin-left: 50px; 
+    }
+    #Choose img {
+    margin-left: 50px;
+    float: right;
+    }   
+    #Books h2 {
+        margin-left: 50px;
+    }
+    #Books p {
+        margin-left: 50px;
+    }   
+}
+@media (max-width: 620px) {
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 75px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    h1 {
+        font-family: Zamenhof;
+        color: #EF5E2A;
+        font-size: 48px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    h2 {
+        font-family: Cocogoose Pro;
+        color: #EF5E2A;
+        font-size: 36px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    p {
+        font-family: Cocogoose Pro;
+        color: black;
+        font-size: 15px;
+    }
+    img {
+        width: 100%;
+    }
+    #Choose {
+        flex-direction: column-reverse;
+    }
+    ul {
+        list-style-image: url(images/Extras\ blue.png);
+        font-family: Cocogoose Pro;
+        color: black;
+        font-size: 18px;
+        margin-left: 50px;
+    }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
