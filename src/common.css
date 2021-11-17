@@ -9,6 +9,11 @@
     src: url(fonts/Cocogoose\ Pro\ Thin\ Trial.ttf);
 }
 
+@font-face {
+    font-family: Zamenhof;
+    src: url(fonts/Zamenhof\ Inline.ttf);
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -39,7 +44,6 @@ nav {
     background-color: #93EBFF;
 }
 
-
 #nav-links {
     display: flex;
 }
@@ -48,7 +52,90 @@ nav {
     display: none;
 }
 
-@media (max-width: 1140px) {
+body {
+    /* This way footer stays at the bottom */
+    position: relative;
+    height: 100%;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #7C9299;
+    height: 182px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright-text {
+    font-size: 16px;
+    text-align: center;
+    font-family: Cocogoose;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.copyright-text:first-of-type {
+    margin-top: 21px;
+}
+
+.number {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.footer-content {
+    display: flex;
+    padding: 0px 55px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.address {
+    font-size: 25px;
+    font-family: Zamenhof;
+    margin-bottom: 22px;
+}
+
+.email {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: Cocogoose;
+    font-weight: 600;
+}
+
+.opening-hours {
+    font-family: Zamenhof;
+    font-size: 24px;
+}
+
+.day {
+    margin-right: 20px;
+}
+
+.last-hour {
+    margin-left: 16px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.privacy {
+    font-family: Zamenhof;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.privacy > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@media (max-width: 981px) {
     html, body
     {
         height: 100%;
@@ -125,4 +212,26 @@ nav {
         -webkit-transform: rotate(45deg) translate(-8px, -8px);
         transform: rotate(45deg) translate(-8px, -8px);
       }
+
+      .footer-content {
+        padding: 0px 25px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content > section {
+        margin-bottom: 15px;
+    }
+
+    .address-email {
+        text-align: center;
+    }
+
+    .address {
+        margin-bottom: 5px;
+    }
+    
+    footer {
+        height: auto;
+    }
 }
