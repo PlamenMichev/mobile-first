@@ -1,0 +1,77 @@
+.banner {
+    background-image: url('images/hero-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 705px;
+    width: 100%;
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.header-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.banner-header {
+    text-shadow: 6px 6px 10px black;
+    font-size: 100px;
+    margin-bottom: 26px;
+    font-family: Zamenhof;
+    color: #DDB1D5;
+    font-weight: 500;
+}
+
+.banner-subheader {
+    text-shadow: 6px 6px 10px black;
+    font-size: 47px;
+    text-align: center;
+    font-family: Zamenhof;
+    color: #DDB1D5;
+    font-weight: 500;
+}
+
+.hero-banner {
+    position: relative;
+}
+
+.hero-banner-mobile {
+    display: none;
+}
+
+@media (max-width: 620px) {
+    .hero-banner {
+        display: none;
+    }
+
+    .hero-banner-mobile {
+        display: block;
+    }
+
+    .banner-header-mobile {
+        text-shadow: none;
+        font-size: 48px;
+        margin-bottom: 14px;
+        color: #EF5E2A;
+        text-align: center;
+        font-weight: 500;
+        font-family: Zamenhof;
+    }
+
+    .banner-subheader-mobile {
+        text-shadow: none;
+        font-size: 35px;
+        color: #EF5E2A;
+        font-weight: 500;
+        font-family: Zamenhof;
+        text-align: center;
+    }
+
+    .header-section-mobile {
+        padding: 70px 20px;
+    }
+}

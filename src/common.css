@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+}
 
 @font-face {
     font-family: Cocogoose;
@@ -62,7 +65,6 @@ body {
 footer {
     background-color: #7C9299;
     height: 182px;
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
@@ -161,6 +163,8 @@ footer {
         background-color: #93EBFF;
         overflow: auto;
         transition: opacity 0.3s;
+        position: absolute;
+        width: 100%;
     }
 
     .nav-links-mobile-hidden {
