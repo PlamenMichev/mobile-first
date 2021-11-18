@@ -25,7 +25,7 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 75px;
-        margin-left: 50px;
+        justify-content: center;
     }
     ul {
         list-style-image: url(images/Extras\ blue.png);
@@ -95,27 +95,4 @@
         font-size: 18px;
         margin-left: 50px;
     }
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
