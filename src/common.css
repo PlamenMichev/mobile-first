@@ -43,6 +43,10 @@ nav {
     padding: 38px 30px;
 }
 
+#nav-links > a.active {
+    background-color: #93EBFF;
+}
+
 #nav-links > a:hover {
     background-color: #93EBFF;
 }
